@@ -95,9 +95,11 @@ $me={
 				.call(xAxis)
 				.append("text")
 				.style("text-anchor", "end")
-				.text(att.axisY_ttl)
-				.attr("y",height*-1-8)
-				.attr("x",0)
+
+				.text(att.axisX_ttl)
+				.attr("y",40)
+				.attr("x",width)
+
 				.attr("class","axis_ttl")
 				.attr("fill", "#b00");
 
@@ -106,9 +108,11 @@ $me={
 				.call(yAxis)
 				.append("text")
 				.style("text-anchor", "end")
-				.text(att.axisX_ttl)
-				.attr("y",height+35)
-				.attr("x",width)
+
+				.text(att.axisY_ttl)
+				.attr("y",-15)
+				.attr("x",0)
+
 				.attr("class","axis_ttl")
 				.attr("fill", "#b00");
 
