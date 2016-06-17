@@ -1,0 +1,18 @@
+{visualize}
+.opa70hi{opa.70,poi}&{opacity:1}
+.exit{fix,dib,l.5,t.5,w.25,h.25,burl.'**/ico/25/exit*png'|0|0|no-repeat,z.9999}
+
+html{w1,h1,f.14}
+body{w1,h1}
+*, *:before, *:after {box}
+
+.bar {fill: #aaa;}
+.bar:hover {fill: #900;}
+.axis {font: 80% sans-serif;}
+.axis path,.axis line {fill: none;stroke: #000;shape-rendering: crispEdges;}
+.x.axis path {}
+.axis_ttl{f.150%}
+.data_label{fill:#b00,f.80%}
+
+#con{h1,w1,vam,o.ddd,bw.50}
+#cell{cen,h1,w1,vam}
